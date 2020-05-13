@@ -1,7 +1,7 @@
 pipeline {
   environment {
-    registry = "anishnath/mkdocs"
-    registryCredential = 'docker-creds'
+    registry = "subhampanda/nodejs"
+    registryCredential = 'dockerhub'
     dockerImage = ''
   }
   agent any
